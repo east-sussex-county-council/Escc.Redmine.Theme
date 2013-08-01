@@ -15,15 +15,23 @@
     <AssemblyName>Escc.Redmine.Theme</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <UseIISExpress>false</UseIISExpress>
-    <SccProjectName>SAK</SccProjectName>
-    <SccLocalPath>SAK</SccLocalPath>
-    <SccAuxPath>SAK</SccAuxPath>
-    <SccProvider>SAK</SccProvider>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -58,6 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="basecamp\stylesheets\application.css" />
+    <Content Include="escc\javascripts\theme.js" />
     <Content Include="escc\stylesheets\application.css" />
   </ItemGroup>
   <PropertyGroup>
